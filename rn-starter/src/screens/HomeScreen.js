@@ -6,28 +6,32 @@ const HomeScreen = ({ navigation }) => {
     <View>
       <Text style={styles.text}>5566gb</Text>
       <Button
-        onPress={() => navigation.navigate('Components')} 
+        onPress={() => navigation.navigate('Components')}
         title="GO to Components Demo"
       />
       <Button
-        title="Go To Kist Demo"
-        onPress={() => navigation.navigate('List')} 
+        title="Go To List Demo"
+        onPress={() => navigation.navigate('List')}
       />
       <Button
         title="Go To ImageScreen"
-        onPress={() => navigation.navigate('Image')} 
+        onPress={() => navigation.navigate('Image')}
       />
       <Button
         title="Go to Counter"
-        onPress={() => navigation.navigate('Counter')} 
+        onPress={() => navigation.navigate('Counter')}
       />
       <Button
         title="Go to Color"
-        onPress={() => navigation.navigate('Color')} 
+        onPress={() => navigation.navigate('Color')}
       />
       <Button
         title="Go to Square"
-        onPress={() => navigation.navigate('Square')} 
+        onPress={() => navigation.navigate('Square')}
+      />
+      <Button
+        title="Go to TextScreen"
+        onPress={() => navigation.navigate('Text')}
       />
     </View>
   );

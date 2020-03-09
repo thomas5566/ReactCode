@@ -1,0 +1,8 @@
+{
+    "editor.tabSize": 2, // 一個tab鍵的空白間距
+    "editor.wordWrap": "on", // 當程式碼超過編輯器畫面，會自動換行
+    "editor.formatOnPaste": true, // 貼上程式碼時會自動排版
+    "editor.formatOnSave": true, // 儲存程式碼時會自動排版
+    "editor.fontSize": 18, // 字體大小
+    "files.insertFinalNewline": true, // 儲存檔案時在結尾插入一個新行
+}
